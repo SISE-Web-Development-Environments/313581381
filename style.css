@@ -2,21 +2,21 @@
   background-color: lavenderblush;
 
 font-family: "Comic Sans MS", cursive, sans-serif;
-text-align center;
+text-align: center;
 }
 body{
     margin:0;
     padding:0;
     background-color: #ffffff
   font-family: "Comic Sans MS", cursive, sans-serif;
-	text-align center;
+	text-align: center;
 
 }
 
 .h2 {
 font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
-  text-align center;
+  text-align: center;
 
 }
 h1 { 
@@ -24,14 +24,14 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 font-size: 24px; font-style: normal; 
 font-variant: normal; 
 font-weight: bold; 
-text-align center;
+text-align: center;
 
 line-height: 26.4px; } 
 h3 { 
 font-family: "Comic Sans MS", cursive, sans-serif;
 font-size: 300%; 
 font-style: normal; 
-text-align center;
+text-align: center;
 
 font-variant: normal; 
 font-weight: bold; 
@@ -42,7 +42,7 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 font-size: 150%; 
 font-style: normal; 
 font-variant: normal; 
-text-align center;
+text-align: center;
 
 font-weight: bold; 
 line-height: 15.4px; } 
@@ -51,7 +51,7 @@ p {
 font-family: "Comic Sans MS", cursive, sans-serif; 
 font-size: 150%; 
 font-style: normal; 
-text-align center;
+text-align: center;
 
 font-variant: normal; 
 font-weight: 400; 
