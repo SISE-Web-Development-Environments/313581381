@@ -17,7 +17,7 @@
 <body class="body">
 
 <nav>
-<div id="menu" class="navbar-header">
+<div id="navbar" class="navbar-header">
 <ul class="nav navbar-nav">
 <li><a href="#Yuval Ben Eliezer"> <i class="fa fa-home"></i>   Yuval Ben Eliezer</a></li>
 <li><a href="#about">About Me</a></li>
@@ -33,6 +33,20 @@
 <br>
 <br>
 <br>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 	<center>
 
 <div class="start">
